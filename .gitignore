@@ -1,0 +1,14 @@
+# R
+.Rhistory
+.Rproj.user/
+.RData
+
+# Tymczasowe pliki systemowe / Word
+~$*
+*.tmp
+
+# Dane, których nie chcesz wrzucać (jakby kiedyś trafiły do katalogu)
+*.sav
+*.spv
+*.gdt
+*.inp
