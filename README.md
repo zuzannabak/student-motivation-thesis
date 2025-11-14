@@ -9,11 +9,12 @@ This repository contains the code, processed data, and thesis PDF for my bachelo
 
 ## Project overview
 
-- **Goal:** Examine how future time perspective, personality traits, time use, financial support, and study-related factors are associated with students' learning engagement.
+- **Goal:** Analyse how future time perspective, personality traits, time use, financial support, and study-related characteristics are associated with students' learning engagement.
 - **Sample:** 198 university students in Poland (online survey).
 - **Design:** Cross-sectional study based on a questionnaire created in Microsoft Forms.
-- **Outcome:** An index of learning engagement (combined from several study-related behaviours), analysed in logarithmic form in the final model.
-- **Tools:** R for data processing, regression modelling, and diagnostics.
+- **Outcome variable:** Index of learning engagement (constructed from several study-related behaviours), analysed in **logarithmic form** in the final model.
+- **Result:** The final regression model explains about **57% of the variance** in engagement (R² ≈ 0.576).
+- **Tools:** R for data processing, regression modelling, diagnostics, and visualisation.
 
 
 ## Methods (short)
@@ -82,8 +83,8 @@ This is the current layout of the repository:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+   git clone https://github.com/zuzannabak/student-motivation-thesis.git
+   cd student-motivation-thesis
    ```
 
 2. Open R or RStudio and set the working directory to the root of the repository.
